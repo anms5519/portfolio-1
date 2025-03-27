@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Kholipha Ahmmad Al-Amin</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script
+            type="text/javascript"
+            src="https://cdn.emailjs.com/dist/email.min.js"
+        ></script>
+    </head>
+    <body>
+        <div id="preloader">
+            <div class="spinner"></div>
+        </div>
+        <header id="header">
+            <button id="nav-toggle" class="nav-toggle">
+                <span class="toggler-icon">|||</span>
+            </button>
+            <button id="theme-toggle" class="theme-toggle">🌞</button>
+        </header>
+        <nav id="slide-menu" class="nav-links">
+            <ul>
+                <li><a href="#about">Summary</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#work">Work Experience</a></li>
+                <li><a href="#projects">Projects & Research</a></li>
+                <li><a href="#trainings">Trainings</a></li>
+                <li><a href="#activities">Extracurricular Activities</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#interests">Interests & Hobbies</a></li>
+                <li><a href="#languages">Languages</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <canvas id="bg-canvas"></canvas>
+        <section class="hero">
+            <div id="typed"></div>
+            <div class="hero-content">
+                <img src="logo.jpg" alt="Logo" />
+                <h1>HEY THERE !</h1>
+                <h2>
+                    I'm Kholipha Ahmmad Al-Amin<br />Welcome to My Portfolio
+                </h2>
+                <a href="#about" class="btn">Explore</a>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container">
+                <h2>Professional Summary</h2>
+                <p>
+                    Passionate IT Professional with expertise in leveraging
+                    artificial intelligence to improve image quality and advance
+                    machine learning. Deeply interested in AI‑driven image
+                    enhancement, game development using Unreal Engine and Python
+                    for immersive 3D/FPS experiences, and cutting‑edge web
+                    development with ultra‑advanced CSS and modern UI/UX design.
+                    Constantly exploring startup ideas, technology‑driven
+                    business solutions, and academic research in LaTeX
+                    documentation, VBA‑based data visualization, and premium
+                    presentations. Organized, dependable, and adept at managing
+                    multiple priorities with strong problem‑solving and
+                    interpersonal skills.
+                </p>
+            </div>
+        </section>
+        <section id="education">
+            <div class="container">
+                <h2>Education</h2>
+                <table border="1" id="table1">
+                    <thead>
+                        <tr>
+                            <th>Degree</th>
+                            <th>Institution</th>
+                            <th>GPA</th>
+                            <th>Year</th>
+                            <th>Additional Information</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Bachelor of Science in Computer Science &
+                                Engineering
+                            </td>
+                            <td>
+                                Atish Dipankar University of Science &
+                                Technology, Dhaka
+                            </td>
+                            <td>3.56</td>
+                            <td>Jan 2022 – Expected Aug 2026</td>
+                            <td>
+                                <strong>Thesis:</strong> THETAEnhancer+ —
+                                AI-Driven Image Restoration Model
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Higher Secondary School</td>
+                            <td>Adamjee Cantonment College, Dhaka</td>
+                            <td>5.00/5.00</td>
+                            <td>2020</td>
+                            <td>Science Faculty</td>
+                        </tr>
+                        <tr>
+                            <td>Secondary School</td>
+                            <td>Civil Aviation School & College, Dhaka</td>
+                            <td>5.00/5.00</td>
+                            <td>2018</td>
+                            <td>Science Faculty</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section id="certifications">
+            <div class="container">
+                <h2>Certifications</h2>
+                <div class="certificate-grid">
+                    <div
+                        class="certificate-card"
+                        data-title="HHP (Mobile) Service For Hardware and Software"
+                        data-img="images/certificates/hhp.png"
+                    >
+                        <h3>HHP (Mobile) Service For Hardware and Software</h3>
+                        <span class="cert-date">2024-01</span>
+                    </div>
+                    <div
+                        class="certificate-card"
+                        data-title="Mobile Game Development (Cross Platform)"
+                        data-img="images/certificates/mobile_game.png"
+                    >
+                        <h3>Mobile Game Development (Cross Platform)</h3>
+                        <span class="cert-date">2022-02</span>
+                    </div>
+                    <div
+                        class="certificate-card"
+                        data-title="Beginner’s Guide to Python 3 Programming"
+                        data-img="images/certificates/python.png"
+                    >
+                        <h3>Beginner’s Guide to Python 3 Programming</h3>
+                        <span class="cert-date">2023-02</span>
+                    </div>
+                    <div
+                        class="certificate-card"
+                        data-title="Professional C Programming for Job Interview"
+                        data-img="images/certificates/c_programming.png"
+                    >
+                        <h3>Professional C Programming for Job Interview</h3>
+                        <span class="cert-date">2023-06</span>
+                    </div>
+                    <div
+                        class="certificate-card"
+                        data-title="EF SET Certificate"
+                        data-img="images/certificates/efset.png"
+                    >
+                        <h3>EF SET Certificate</h3>
+                        <span class="cert-date">2025-02</span>
+                    </div>
+                    <div
+                        class="certificate-card"
+                        data-title="CSS (Basic) Certificate"
+                        data-img="images/certificates/css.png"
+                    >
+                        <h3>CSS (Basic) Certificate</h3>
+                        <span class="cert-date">2025-01</span>
+                    </div>
+                    <div
+                        class="certificate-card"
+                        data-title="CHAT — Toolkit to Improve Community Engagement in Emergencies"
+                        data-img="images/certificates/chat.png"
+                    >
+                        <h3>
+                            CHAT — Toolkit to Improve Community Engagement in
+                            Emergencies
+                        </h3>
+                        <span class="cert-date">2025-01</span>
+                    </div>
+                    <div
+                        class="certificate-card"
+                        data-title="Cybersecurity Analyst Job Simulation"
+                        data-img="images/certificates/cybersecurity.png"
+                    >
+                        <h3>Cybersecurity Analyst Job Simulation</h3>
+                        <span class="cert-date">2024-04</span>
+                    </div>
+                    <div
+                        class="certificate-card"
+                        data-title="Data Visualisation: Empowering Business with Effective Insights"
+                        data-img="images/certificates/datavis.png"
+                    >
+                        <h3>
+                            Data Visualisation: Empowering Business with
+                            Effective Insights
+                        </h3>
+                        <span class="cert-date">2024-04</span>
+                    </div>
+                    <div
+                        class="certificate-card"
+                        data-title="A2Z Of Finance: Finance Beginner Course"
+                        data-img="images/certificates/a2z.png"
+                    >
+                        <h3>A2Z Of Finance: Finance Beginner Course</h3>
+                        <span class="cert-date">2024-04</span>
+                    </div>
+                    <div
+                        class="certificate-card"
+                        data-title="Building Generative AI Applications Using Amazon Bedrock"
+                        data-img="images/certificates/digital_marketing.png"
+                    >
+                        <h3>
+                            Building Generative AI Applications Using Amazon
+                            Bedrock
+                        </h3>
+                        <span class="cert-date">June 9, 2024</span>
+                    </div>
+                    <div
+                        class="certificate-card"
+                        data-title="SDG Primer certificate"
+                        data-img="images/certificates/sdg.png"
+                    >
+                        <h3>
+                            Monitoring & Evaluation Analyst at UNDP Bangladesh
+                        </h3>
+                        <span class="cert-date">7th September 2024</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="certificate-modal" class="modal">
+            <div class="modal-content certificate-modal-content">
+                <span class="close-btn">❌</span>
+                <img id="certificate-image" src="" alt="Certificate" />
+            </div>
+        </div>
+        <section id="skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <table border="1" id="table2">
+                    <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th>Skills</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Technical</strong></td>
+                            <td>
+                                Website Development, SEO Analysis, Game Design,
+                                Unreal Engine, Motion Graphics, Adobe Photoshop,
+                                Adobe Acrobat
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Programming</strong></td>
+                            <td>
+                                JavaScript, C, C++, C#, Python, MATLAB, SQL
+                                Queries
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Data & Analysis</strong></td>
+                            <td>
+                                Predictive Analytics, Data Acquisition, Data
+                                Interpretation, Data Visualization, Issue
+                                Resolution, Decision Making, Organizational
+                                Strategy, Social Media Strategy, Project
+                                Coordination
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Interpersonal</strong></td>
+                            <td>
+                                Multicultural Communication, Technical
+                                Communication, Team Collaboration, Public
+                                Speaking, Adaptability, Client Interaction,
+                                Leadership, Customer Service
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Databases</strong></td>
+                            <td>PostgreSQL, MariaDB, Microsoft Office</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section id="work">
+            <div class="container">
+                <h2>Work Experience</h2>
+                <table border="1" id="table3">
+                    <thead>
+                        <tr>
+                            <th>Position</th>
+                            <th>Company</th>
+                            <th>Duration</th>
+                            <th>Responsibilities</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <strong>Commercial Designer (Freelance)</strong>
+                            </td>
+                            <td>Fiverr</td>
+                            <td>Jan 2020 – Present</td>
+                            <td>
+                                <ul>
+                                    <li>
+                                        Designed branding, advertisements, and
+                                        marketing materials.
+                                    </li>
+                                    <li>
+                                        Created logos, business cards,
+                                        brochures, and packaging designs.
+                                    </li>
+                                    <li>
+                                        Developed UI/UX designs for websites and
+                                        mobile apps.
+                                    </li>
+                                    <li>
+                                        Maintained a 5-star rating with high
+                                        client satisfaction.
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Retail Pharmacist</strong></td>
+                            <td>RANI MEDICAL CORNER, Dhaka</td>
+                            <td>Jan 2012 – Present</td>
+                            <td>
+                                Managed day-to-day pharmacy operations and sales
+                                of medicines.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <strong
+                                    >Data Visualization Specialist (Job
+                                    Simulation)</strong
+                                >
+                            </td>
+                            <td>Tata Consultancy Services</td>
+                            <td>Jun 2024 – Jul 2024</td>
+                            <td>
+                                <ul>
+                                    <li>
+                                        Designed interactive dashboards for
+                                        complex datasets.
+                                    </li>
+                                    <li>
+                                        Utilized Python, Excel, and Power BI for
+                                        data transformation.
+                                    </li>
+                                    <li>
+                                        Applied statistical analysis and data
+                                        storytelling techniques.
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <strong
+                                    >Cybersecurity Analyst (Job
+                                    Simulation)</strong
+                                >
+                            </td>
+                            <td>Tata Consultancy Services</td>
+                            <td>Apr 2024 – May 2024</td>
+                            <td>
+                                <ul>
+                                    <li>
+                                        Conducted risk assessments and
+                                        implemented security measures.
+                                    </li>
+                                    <li>
+                                        Analyzed network vulnerabilities and
+                                        threat detection.
+                                    </li>
+                                    <li>
+                                        Utilized cybersecurity tools for
+                                        monitoring and response.
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="container">
+                <h2>Projects & Research</h2>
+                <div class="project-grid">
+                    <div
+                        class="project-card"
+                        data-title="THETAEnhancer+"
+                        data-description="An Advanced AI‑Driven Image Restoration and Enhancement Model (Thesis)"
+                    >
+                        <h3>THETAEnhancer+</h3>
+                        <p>
+                            Advanced AI‑driven image restoration & enhancement
+                            model.
+                        </p>
+                    </div>
+                    <div class="project-card">
+                        <h3>AI Image Enhancer</h3>
+                        <p>
+                            An advanced AI-driven image restoration and
+                            enhancement model.
+                        </p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Interactive 3D Game</h3>
+                        <p>
+                            Immersive 3D and FPS game using Unreal Engine and
+                            Python.
+                        </p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Dynamic Web Interfaces</h3>
+                        <p>
+                            Ultra-advanced CSS styles and animations to create
+                            engaging web experiences.
+                        </p>
+                    </div>
+                    <div
+                        class="project-card"
+                        data-title="AI-Powered Data Visualizer"
+                        data-description="An interactive, real-time data visualization platform leveraging machine learning for predictive analytics. Features live data feeds, dynamic charts, and insightful metrics."
+                    >
+                        <h3>AI-Powered Data Visualizer</h3>
+                        <p>Interactive data visualization with AI insights.</p>
+                    </div>
+                    <div
+                        class="project-card"
+                        data-title="3D Virtual Tour"
+                        data-description="A fully immersive 3D virtual tour built with Three.js and WebGL. Explore interactive environments with smooth transitions and engaging narratives."
+                    >
+                        <h3>3D Virtual Tour</h3>
+                        <p>Explore immersive 3D environments.</p>
+                    </div>
+                    <div
+                        class="project-card"
+                        data-title="Real-Time Multiplayer Game"
+                        data-description="A fast-paced online multiplayer game featuring advanced animations, responsive controls, and real-time interactions using cutting-edge web technologies."
+                    >
+                        <h3>Real-Time Multiplayer Game</h3>
+                        <p>Online multiplayer with advanced animations.</p>
+                    </div>
+                    <div
+                        class="project-card"
+                        data-title="Dynamic Web Interface"
+                        data-description="A cutting-edge website design featuring ultra-advanced CSS animations, micro-interactions, parallax scrolling, and an intuitive UI for an enhanced user experience."
+                    >
+                        <h3>Dynamic Web Interface</h3>
+                        <p>Cutting-edge design with interactive effects.</p>
+                    </div>
+                    <div
+                        class="project-card"
+                        data-title="Quantum Code Simulator"
+                        data-description="A simulation tool that models quantum computing algorithms in real-time for educational purposes."
+                    >
+                        <h3>Quantum Code Simulator</h3>
+                        <p>
+                            Real-time simulation of quantum algorithms with
+                            interactive visualizations.
+                        </p>
+                    </div>
+                    <div
+                        class="project-card"
+                        data-title="Blockchain Secure Voting"
+                        data-description="A decentralized voting system ensuring transparency and security using blockchain technology."
+                    >
+                        <h3>Blockchain Secure Voting</h3>
+                        <p>
+                            A secure, blockchain-based voting platform for
+                            modern elections.
+                        </p>
+                    </div>
+                    <div
+                        class="project-card"
+                        data-title="AI-Powered Cyber Defense"
+                        data-description="An AI system that predicts and defends against cyber threats in dynamic network environments."
+                    >
+                        <h3>AI-Powered Cyber Defense</h3>
+                        <p>
+                            Real-time threat detection and prevention powered by
+                            machine learning.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="trainings">
+            <div class="container">
+                <h2>Trainings & Workshops</h2>
+                <table border="1" id="table4">
+                    <thead>
+                        <tr>
+                            <th>Workshop/Event</th>
+                            <th>Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Undergraduates Projects for CSE Students</td>
+                            <td>A Comprehensive Guideline</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Workshop on Beginner’s Guide to Python 3
+                                Programming
+                            </td>
+                            <td>Basic Python programming skills</td>
+                        </tr>
+                        <tr>
+                            <td>Machine Learning and AI Workshop</td>
+                            <td>
+                                Introduction to AI and Machine Learning
+                                techniques
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Web Development Bootcamp</td>
+                            <td>Full-stack web development skills</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Arduino Programming and Applications Workshop
+                            </td>
+                            <td>Learning Arduino basics and applications</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Workshop on Professional C Programming for Job
+                                Interview
+                            </td>
+                            <td>Job-ready C programming skills</td>
+                        </tr>
+                        <tr>
+                            <td>AR/VR Workshop</td>
+                            <td>
+                                Introduction to Augmented and Virtual Reality
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Software Testing and Quality Assurance
+                                Conference
+                            </td>
+                            <td>
+                                Understanding software testing and QA methods
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>DevOps and CI/CD Conference</td>
+                            <td>
+                                DevOps practices and Continuous
+                                Integration/Continuous Deployment
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Game Development Using Unity Webinar</td>
+                            <td>Unity-based game development techniques</td>
+                        </tr>
+                        <tr>
+                            <td>Cybersecurity and Ethical Hacking Workshop</td>
+                            <td>
+                                Learning cybersecurity and ethical hacking
+                                methods
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Mobile App Development Seminar</td>
+                            <td>
+                                Developing mobile applications for Android and
+                                iOS
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Blockchain and Cryptocurrency Workshop</td>
+                            <td>
+                                Understanding blockchain technology and
+                                cryptocurrencies
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>IoT Workshop</td>
+                            <td>
+                                Exploring Internet of Things (IoT) applications
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Data Science and Analytics Workshop</td>
+                            <td>
+                                Learn data science techniques and analytics
+                                tools
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Cloud Computing Workshop</td>
+                            <td>Introduction to cloud computing platforms</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Dive Into R: A Hands-on Programming Workshop
+                            </td>
+                            <td>Practical R programming for data analysis</td>
+                        </tr>
+                        <tr>
+                            <td>SQA Webinar</td>
+                            <td>Software Quality Assurance principles</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section id="activities">
+            <div class="container">
+                <h2>Extracurricular Activities</h2>
+                <h3>Leadership & Volunteering</h3>
+                <table border="1" id="table5">
+                    <thead>
+                        <tr>
+                            <th>Organization</th>
+                            <th>Role</th>
+                            <th>Duration</th>
+                            <th>Responsibilities</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <strong>Adamjee Eco Amica Club (AEAC)</strong>
+                            </td>
+                            <td>President</td>
+                            <td>2019-2020</td>
+                            <td>
+                                Led environmental awareness initiatives,
+                                coordinated eco-friendly projects, and organized
+                                events to promote sustainability.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <strong>Leo Club of Dhaka Mega City</strong>
+                            </td>
+                            <td>Graphics Designer</td>
+                            <td>2022-2023</td>
+                            <td>
+                                Designed promotional materials for the club's
+                                events and initiatives, including posters,
+                                banners, and digital content.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Vantage IT Limited, Uttara</strong></td>
+                            <td>Treasurer</td>
+                            <td>2022-2023</td>
+                            <td>
+                                Managed club finances, handled budget planning,
+                                and ensured the allocation of funds for various
+                                club activities and events.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>BD Clean, Dhaka</strong></td>
+                            <td>Event Coordinator</td>
+                            <td>2021-2022</td>
+                            <td>
+                                Organized community clean-up events, awareness
+                                campaigns on waste management, and environmental
+                                education programs.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <strong>ADUST Prothom Alo Bandhu Sabha</strong>
+                            </td>
+                            <td>Graphics Designer</td>
+                            <td>2023-2024</td>
+                            <td>
+                                Designed marketing materials for the club's
+                                publications and events, including flyers,
+                                brochures, and social media posts.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>ADUST Shomokal Shuhud</strong></td>
+                            <td>Member</td>
+                            <td>2024-2025</td>
+                            <td>
+                                Participated in discussions, cultural
+                                activities, and initiatives to support the
+                                development of student welfare and
+                                communication.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <strong
+                                    >Social Environment and Human Rights
+                                    Implementation Agency, Mohakhali</strong
+                                >
+                            </td>
+                            <td>General Secretary</td>
+                            <td>2023-2024</td>
+                            <td>
+                                Coordinated activities for human rights
+                                advocacy, managing events and helping to create
+                                awareness programs on social issues.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <strong>Bangabandhu Parishad, Tejgaon</strong>
+                            </td>
+                            <td>Member</td>
+                            <td>Ongoing</td>
+                            <td>
+                                Contributed to initiatives that promote
+                                Bangabandhu’s legacy and engage in activities
+                                related to national development and history.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>Tech & Creative Activities</h3>
+                <table border="1" id="table6">
+                    <thead>
+                        <tr>
+                            <th>Club/Organization</th>
+                            <th>Role</th>
+                            <th>Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>ACC Coding Club</strong></td>
+                            <td>Organizer</td>
+                            <td>
+                                Organized weekly coding competitions and
+                                hackathons, facilitating learning sessions for
+                                coding enthusiasts and beginners.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>ADUST Programming Club</strong></td>
+                            <td>Member</td>
+                            <td>
+                                Led coding workshops and hackathons to help
+                                students enhance their programming skills and
+                                prepare for technical challenges.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>ACC Photography Club</strong></td>
+                            <td>Member</td>
+                            <td>
+                                Captured moments during campus events, organized
+                                exhibitions, and contributed to the club’s
+                                online content and gallery.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>ACC Cultural Club</strong></td>
+                            <td>Member</td>
+                            <td>
+                                Participated in cultural events, performing
+                                arts, and events that celebrate local and
+                                international cultural diversity.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>Sports & Athletics</h3>
+                <table border="1" id="table7">
+                    <thead>
+                        <tr>
+                            <th>Sport</th>
+                            <th>Role</th>
+                            <th>Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>ADUST Football Club</strong></td>
+                            <td>Sporting Director</td>
+                            <td>
+                                Managed team strategies, coordinated practice
+                                sessions, and handled logistics for matches and
+                                tournaments.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Badminton Team</strong></td>
+                            <td>Active Member</td>
+                            <td>
+                                Participated in local badminton tournaments and
+                                intramural matches, contributing to team
+                                victories and fostering team spirit.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section id="gallery">
+            <div class="container">
+                <h2>Photo Gallery</h2>
+                <div class="gallery-grid">
+                    <a href="images/1.jpg" class="lightbox">
+                        <img src="images/1.jpg" alt="Gallery Image 1" />
+                    </a>
+                    <a href="images/2.jpg" class="lightbox">
+                        <img src="images/2.jpg" alt="Gallery Image 2" />
+                    </a>
+                    <a href="images/3.jpg" class="lightbox">
+                        <img src="images/3.jpg" alt="Gallery Image 3" />
+                    </a>
+                    <a href="images/4.jpg" class="lightbox">
+                        <img src="images/4.jpg" alt="Gallery Image 4" />
+                    </a>
+                    <a href="images/5.jpg" class="lightbox">
+                        <img src="images/5.jpg" alt="Gallery Image 5" />
+                    </a>
+                </div>
+            </div>
+            <div id="lightbox-modal" class="lightbox-modal">
+                <span class="close">&times;</span>
+                <img class="lightbox-content" id="lightbox-img" />
+            </div>
+        </section>
+        <section id="interests">
+            <div class="container">
+                <h2>Interests & Hobbies</h2>
+                <table border="1" id="table8">
+                    <thead>
+                        <tr>
+                            <th>Technology & Computing</th>
+                            <th>Creative & Artistic Interests</th>
+                            <th>Personal Hobbies</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Programming and Coding</td>
+                            <td>Art and Craft</td>
+                            <td>Reading</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Artificial Intelligence and Machine Learning
+                            </td>
+                            <td>Animation</td>
+                            <td>Writing</td>
+                        </tr>
+                        <tr>
+                            <td>Web Development</td>
+                            <td>Character Design</td>
+                            <td>Traveling</td>
+                        </tr>
+                        <tr>
+                            <td>Cybersecurity and Ethical Hacking</td>
+                            <td>Graphic Design</td>
+                            <td>Making and Flying Different Types of Kites</td>
+                        </tr>
+                        <tr>
+                            <td>Data Science and Analytics</td>
+                            <td>Digital Painting</td>
+                            <td>Photography</td>
+                        </tr>
+                        <tr>
+                            <td>Cloud Computing</td>
+                            <td>Sketching and Illustration</td>
+                            <td>Hiking</td>
+                        </tr>
+                        <tr>
+                            <td>Internet of Things (IoT)</td>
+                            <td>3D Modeling</td>
+                            <td>Cooking</td>
+                        </tr>
+                        <tr>
+                            <td>Game Development</td>
+                            <td>Storyboarding</td>
+                            <td>Board Games & Puzzles</td>
+                        </tr>
+                        <tr>
+                            <td>Blockchain and Cryptocurrency</td>
+                            <td>Calligraphy</td>
+                            <td>Fishing</td>
+                        </tr>
+                        <tr>
+                            <td>Mobile App Development</td>
+                            <td>Sculpting</td>
+                            <td>Camping</td>
+                        </tr>
+                        <tr>
+                            <td>Robotics</td>
+                            <td>Creative Writing</td>
+                            <td>Music (Listening & Playing Instruments)</td>
+                        </tr>
+                        <tr>
+                            <td>Algorithms and Data Structures</td>
+                            <td>Typography</td>
+                            <td>Meditation</td>
+                        </tr>
+                        <tr>
+                            <td>Software Engineering Practices</td>
+                            <td>Photography Editing</td>
+                            <td>Gardening</td>
+                        </tr>
+                        <tr>
+                            <td>Operating Systems</td>
+                            <td>DIY Projects</td>
+                            <td>Collecting Antiques</td>
+                        </tr>
+                        <tr>
+                            <td>Networking and Network Security</td>
+                            <td>Cinematography</td>
+                            <td>Bird Watching</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Virtual Reality (VR) and Augmented Reality (AR)
+                            </td>
+                            <td>Film Editing</td>
+                            <td>Astrophotography</td>
+                        </tr>
+                        <tr>
+                            <td>Computer Graphics and Animation</td>
+                            <td>Acting & Theater</td>
+                            <td>Playing Sports</td>
+                        </tr>
+                        <tr>
+                            <td>Embedded Systems</td>
+                            <td>Music Composition</td>
+                            <td>Volunteer Work</td>
+                        </tr>
+                        <tr>
+                            <td>Quantum Computing</td>
+                            <td>Set Design</td>
+                            <td>Learning New Languages</td>
+                        </tr>
+                        <tr>
+                            <td>Open Source Contribution and Communities</td>
+                            <td>Fashion Design</td>
+                            <td>Origami</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section id="languages">
+            <div class="container">
+                <h2>Languages</h2>
+                <table>
+                    <tr>
+                        <th>Language</th>
+                        <th>Proficiency</th>
+                    </tr>
+                    <tr>
+                        <td>Bengali</td>
+                        <td>Native</td>
+                    </tr>
+                    <tr>
+                        <td>English</td>
+                        <td>Proficient (C2)</td>
+                    </tr>
+                    <tr>
+                        <td>Hindi</td>
+                        <td>Advanced (C1)</td>
+                    </tr>
+                    <tr>
+                        <td>Urdu</td>
+                        <td>Intermediate (B1)</td>
+                    </tr>
+                    <tr>
+                        <td>Arabic</td>
+                        <td>Basic</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section id="resume">
+            <div class="container" style="text-align: center">
+                <h2>Resume</h2>
+                <p>
+                    Download my resume to see my detailed experience and
+                    projects.
+                </p>
+                <a href="resume.pdf" download class="btn">Download Resume</a>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <form id="contact-form">
+                    <input
+                        type="text"
+                        name="from_name"
+                        placeholder="Your Name"
+                        required
+                    />
+                    <input
+                        type="email"
+                        name="from_email"
+                        placeholder="Your Email"
+                        required
+                    />
+                    <input
+                        type="text"
+                        name="subject"
+                        placeholder="Subject"
+                        required
+                    />
+                    <input
+                        type="text"
+                        name="phone"
+                        placeholder="Phone (Optional)"
+                    />
+                    <textarea
+                        name="message"
+                        placeholder="Your Message"
+                        rows="5"
+                        required
+                    ></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+        <button id="scroll-to-top">↑</button>
+        <div id="cursor-follower"></div>
+        <div id="toast" class="toast"></div>
+        <footer>
+            <div class="container">
+                <p>&copy; 2025 Kholipha Ahmmad Al-Amin. All rights reserved.</p>
+                <div class="social-links">
+                    <a
+                        href="https://www.linkedin.com/in/kholipha-ahmmad-al-amin-3856b1305/"
+                        target="_blank"
+                        >LinkedIn</a
+                    >
+                    <a href="https://github.com/anms5519" target="_blank"
+                        >GitHub</a
+                    >
+                    <a
+                        href="https://www.facebook.com/kholipha.ahmmad.al.amin"
+                        target="_blank"
+                        >Facebook</a
+                    >
+                </div>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+        <script>
+                document.addEventListener("visibilitychange", function() {
+                    if (document.hidden) {
+                        document.body.innerHTML = `
+            <style>
+              body { margin: 0; padding: 0; background: #000; color: #fff; font-family: 'Poppins', sans-serif; text-align: center; }
+              .overlay {
+                position: fixed; top: 0; left: 0; width: 100%; height: 100vh;
+                display: flex; flex-direction: column; justify-content: center; align-items: center;
+                background: radial-gradient(circle, #ff0000, #8b0000);
+                animation: pulse 1.5s infinite alternate;
+              }
+              @keyframes pulse { 0% { transform: scale(1); } 100% { transform: scale(1.02); } }
+              h1 { font-size: 3rem; text-transform: uppercase; letter-spacing: 5px; margin-bottom: 20px; }
+              p { font-size: 1.2rem; max-width: 80%; margin: auto; }
+              .error-icon { font-size: 5rem; color: #fff; animation: blink 0.8s infinite alternate; }
+              @keyframes blink { 0% { opacity: 1; } 100% { opacity: 0.4; } }
+            </style>
+            <div class="overlay">
+              <div>
+                <div class="error-icon">🚫</div>
+                <h1>Tab Change Detected</h1>
+                <p>My system detected Tab Change Attempt. Access has been blocked.<br>Refresh the page to unblock.</p>
+              </div>
+            </div>
+            `;
+                    }
+                });
+                document.addEventListener("contextmenu", (e) => e.preventDefault());
+                document.addEventListener("keydown", (e) => {
+                    const forbiddenKeys = ["u", "s", "c", "p", "x", "a", "v"];
+                    if (e.ctrlKey && forbiddenKeys.includes(e.key.toLowerCase())) {
+                        e.preventDefault();
+                    }
+                    if (e.key === "F12" || (e.ctrlKey && e.shiftKey && e.key.toUpperCase() === "I")) {
+                        e.preventDefault();
+                    }
+                });
+                ["copy", "cut", "paste", "dragstart"].forEach((evt) => document.addEventListener(evt, (e) => e.preventDefault()));
+                setInterval(() => {
+                    if (window.outerWidth - window.innerWidth > 20 || window.outerHeight - window.innerHeight > 200) {
+                        document.body.innerHTML = `
+            <style>
+              body { margin: 0; padding: 0; background: #000; color: #fff; font-family: 'Poppins', sans-serif; text-align: center; }
+              .overlay {
+                position: fixed; top: 0; left: 0; width: 100%; height: 100vh;
+                display: flex; flex-direction: column; justify-content: center; align-items: center;
+                background: radial-gradient(circle, #ff0000, #8b0000);
+                animation: pulse 1.5s infinite alternate;
+              }
+              @keyframes pulse { 0% { transform: scale(1); } 100% { transform: scale(1.02); } }
+              h1 { font-size: 3rem; text-transform: uppercase; letter-spacing: 5px; margin-bottom: 20px; }
+              p { font-size: 1.2rem; max-width: 80%; margin: auto; }
+              .error-icon { font-size: 5rem; color: #fff; animation: blink 0.8s infinite alternate; }
+              @keyframes blink { 0% { opacity: 1; } 100% { opacity: 0.4; } }
+            </style>
+            <div class="overlay">
+              <div>
+                <div class="error-icon">🚫</div>
+                <h1>Security Violation Detected</h1>
+                <p>Our system detected an unauthorized attempt. Access has been locked.<br>Close all developer tools and refresh the page.</p>
+              </div>
+            </div>
+            `;
+                    }
+                }, 500);
+                document.addEventListener("DOMContentLoaded", () => {
+                    const tables = document.querySelectorAll("table");
+                    tables.forEach((table) => {
+                        const cells = table.querySelectorAll("td");
+                        cells.forEach((cell, index) => {
+                            cell.style.transition = "transform 0.3s ease, background 0.3s ease";
+                            cell.addEventListener("mouseenter", () => {
+                                cell.style.transform = "scale(1.1) rotateY(5deg)";
+                                cell.style.background = "rgba(255, 165, 0, 0.7)";
+                            });
+                            cell.addEventListener("mouseleave", () => {
+                                cell.style.transform = "scale(1) rotateY(0deg)";
+                                cell.style.background = "";
+                            });
+                        });
+                    });
+                });
+                const tables = document.querySelectorAll("table");
+                tables.forEach((table) => {
+                    const cells = table.querySelectorAll("td");
+                    cells.forEach((cell, index) => {
+                        const animClass = 'anim-' + ((index % 15) + 1);
+                        cell.classList.add(animClass);
+                    });
+                });
+        </script>
+    </body>
+</html>
